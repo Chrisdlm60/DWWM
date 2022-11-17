@@ -1,0 +1,54 @@
+@media screen and (max-width: 780px)
+{
+    
+    #bloc_page
+    {
+        width: auto;
+        margin: auto;
+    }
+    
+    .menu
+    {
+        width: auto;
+        text-align: left;
+    }
+
+    img
+    {
+        top: 40px;
+        width: 120px;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .text1 
+    {
+        top: 100px;
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+        color: darkred;
+        background-color: burlywood;
+    }
+
+    .text2 
+    {
+        top: 280px;
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+        color: darkgreen;
+        background-color: darkgrey;
+    }
+
+    .text3 
+    {
+        top: 520px;
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+        color: yellowgreen;
+        background-color: teal;
+    }
+
+}

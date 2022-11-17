@@ -1,0 +1,150 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Make sure your page contains a valid doctype at the very top-->
+
+        <link rel="stylesheet" type="text/css" href="css/Accordion.css" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/Accordion.js">
+
+        /***********************************************
+        * Horizontal Accordion script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+        * Please keep this notice intact
+        * Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+        ***********************************************/
+
+        </script>
+
+        <style type="text/css">
+
+        /*CSS for example Accordion #hc1*/
+
+        #hc1 li{
+        margin:0 5px 0 0; /*Spacing between each LI container*/
+        }
+
+        #hc1 li .hpanel{
+        padding: 5px; /*Padding inside each content*/
+        background: #87bb34;
+        }
+
+        /*CSS for example Accordion #hc2*/
+
+        #hc2 li{
+        margin:0 0 0 0; /*Spacing between each LI container*/
+        border: 12px solid black;
+        }
+
+        #hc2 li .hpanel{
+        padding: 5px; /*Padding inside each content*/
+        background: #E2E9FF;
+        cursor: hand;
+        cursor: pointer;
+        }
+
+        </style>
+
+        <script type="text/javascript">
+
+            haccordion.setup({ //Demo 1 dimension
+                accordionid: 'hc1', //main accordion div id
+                paneldimensions: {peekw:'50px', fullw:'400px', h:'158px'},
+                selectedli: [0, true], //[selectedli_index, persiststate_bool]
+                collapsecurrent: false //<- No comma following very last setting!
+            })
+
+            haccordion.setup({ //Demo 2 dimension
+                accordionid: 'hc2', //main accordion div id
+                paneldimensions: {peekw:'30px', fullw:'450px', h:'150px'},
+                selectedli: [-1, true], //[selectedli_index, persiststate_bool]
+                collapsecurrent: true //<- No comma following very last setting!
+        })
+
+        </script>
+        
+    </head>
+    <body>
+        <span class="logo"><img src="img/logo.jpg"></span>
+
+        <h2>Demo 1:</h2>
+
+        <div id="hc1" class="haccordion">
+            <ul>
+
+                <li>
+                    <div class="hpanel">
+                    <img src="img/afpa.jpg" style="float:left; padding-right:8px; width:200px; height:148px" />The Andaman Sea is regarded as Thailand's most precious natural resource as it hosts the most popular and luxurious resorts in Asia.
+                    </div>
+                </li>
+
+                <li>
+                    <div class="hpanel">
+                    <img src="img/auto2.jpg" style="float:left; padding-right:8px; width:200px; height:148px" />Japan is a constitutional monarchy where the power of the Emperor is very limited.
+                    </div>
+                </li>
+
+                <li>
+                    <div class="hpanel">
+                    <img src="img/contactez-nous.png" style="float:left; padding-right:8px; width:200px; height:148px" />Malaysia is a South Asian country rich in natural resources in areas such as agriculture, forestry and minerals.
+                    </div>
+                </li>
+
+                <li>
+                    <div class="hpanel">
+                    <img src="img/devweb.jpg" style="float:left; padding-right:8px; width:200px; height:148px" />Agriculture has long been the most important sector of the Cambodian economy.
+                    </div>
+                </li>
+
+                <li>
+                    <div class="hpanel">
+                    <img src="img/formation.png" style="float:left; padding-right:8px; width:200px; height:148px" />Langkawi is particularly known for its beaches which are among the best in Malaysia.
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+        <p style="clear:left"><a href="javascript:haccordion.expandli('hc1', 0)">Expand 1 Panel</a> | <a href="javascript:haccordion.expandli('hc1', 1)">Expand 2nd Panel</a> | <a href="javascript:haccordion.expandli('hc1', 2)">Expand 3rd Panel</a> | <a href="javascript:haccordion.expandli('hc1', 3)">Expand 4th Panel</a> | <a href="javascript:haccordion.expandli('hc1', 4)">Expand 5th Panel</a></p>
+
+
+        <br />
+
+
+
+        <h2>Demo 2:</h2>
+
+
+        <div id="hc2" class="haccordion">
+            <ul>
+
+            <li style="border-right-width:0">
+                <div class="hpanel" style="padding:10px; width:250px">
+                This accordion content has a custom full width of 250px. Note where the two inline CSS are added within the markup.
+                </div>
+            </li>
+
+            <li style="border-right-width:0">
+                <div class="hpanel" style="padding:10px; width:180px">
+                This accordion content has a custom full width of 180px. Note where the two inline CSS are added within the markup.
+                </div>
+            </li>
+
+            <li style="border-right-width:0">
+                <div class="hpanel" style="padding:10px; width:350px">
+                This accordion content has a custom full width of 350px. Note where the two inline CSS are added within the markup.
+                </div>
+            </li>
+
+            <li>
+                <div class="hpanel" style="padding:10px; width:550px">
+                This accordion content has a custom full width of 550px. Note where the two inline CSS are added within the markup.
+                </div>
+            </li>
+
+            </ul>
+        </div>
+
+    </body>
+</html>

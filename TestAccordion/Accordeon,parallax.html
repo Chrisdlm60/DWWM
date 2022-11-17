@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/index2.css">
+        <script src="js/formation.js"></script>
+
+        <!--Style parallax-->
+        <style>
+            .img1, .imgntic, .imgbat, .imgcompt, .imgservpers, .imghotel, .imgcommerce, .imgindus, .imgtp
+            {
+                /* image utilisé*/
+                position: relative;
+                /* opacity: 0.7; */
+    
+                /*creation du parallax*/
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .img1
+            {
+                background-image: url("img/afpa.jpg");
+                min-height: 100%;
+                opacity: 1;
+            }
+            .imgntic
+            {
+                background-image: url("img/Nouvelletechno.jpg");
+                min-height: 600px;
+            }
+            .imgbat
+            {
+                background-image: url("img/Batiment.png");
+                min-height: 400px;
+                
+            }
+            .imgcompt
+            {
+                background-image: url("img/Fonctions\ support\ de\ l\'entreprise.png");
+                min-height: 400px;
+            } 
+            .imgservpers
+            {
+                background-image: url("img/Services.jpg");
+                min-height: 400px;
+            } 
+            .imghotel
+            {
+                background-image: url("img/cuisinier.jpg");
+                min-height: 400px;
+            } 
+            .imgcommerce
+            {
+                background-image: url("img/vendeur.jpg");
+                min-height: 400px;
+            } 
+            .imgindus
+            {
+                background-image: url("img/tracteur.jpg");
+                min-height: 400px;
+            } 
+            .imgtp
+            {
+                background-image: url("img/voirie.jpg");
+                min-height: 400px;
+            } 
+        </style>
+    </head>
+    <body>
+        <span class="logo"><img src="img/logo.jpg"></span>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Formation.html">Nos Formations</a></li>
+                <li><a href="Plan.html">Plan du site</a></li>
+                <li><a href="lien1.html">lien1</a></li>
+            </ul>
+        </div>
+
+        <h1 style="text-align: center;">test Accordion</h1>
+            
+        <div class="imgntic">
+            <div class="Caption">
+                <span class="border">Nouvelle technologie</span>
+            </div>
+        </div>
+        <div class="Accordeon" id="Depliant">
+            <div class="bordDepliant">
+                Nouvelle Technologie
+            </div>
+        </div>
+        <div class="panel">
+            <table id="tableau">
+                <tr id="titretab">
+                        Concepteur Developpeur d'Application (CDA)
+                        <a id="pdf" href="pdf/concepteur développeur d'applications.pdf" target="_blank">voir le referentiel<img src="img/logopdf1.jpg" height="20" width="20"></a>
+                </tr>             
+                <tr>
+                    <td>Concevoir et développer une application multicouche répartie en intégrant les recommandations de sécurité.     <br>Bloc de compétences du titre professionnel Concepteur développeur d’applications
+                    </td>
+                    <td>Concevoir et développer la persistance des données en intégrant les recommandations de sécurité. 
+                    <br>Bloc de compétences du titre professionnel Concepteur développeur d’applications</td>
+                    <td>Concevoir et développer des composants d'interface utilisateur en intégrant les recommandations de sécurité. 
+                    <br>Bloc de compétences du titre professionnel Concepteur développeur d’applications</td>
+                </tr>
+            </table>
+            <br>
+            <table id="tableau">
+                <tr id="titretab">
+                    Developpeur Web et Web Mobile <a id="pdf" href="pdf/Développeur web et web mobile.pdf" target="_blank">voir le referentiel<img src="img/logopdf1.jpg" height="20" width="20"></a></tr>
+                
+                <td>
+                    Développer la partie back-end d'une application web ou web mobile en intégrant les recommandations de sécurité. 
+                    <br>Bloc de compétences du titre professionnel Développeur web et web mobile
+                </td>
+            </table>
+        </div>
+
+        <div class="imgbat">
+            <div class="Caption">
+                <span class="border">Bâtiment</span>
+            </div>
+        </div>
+        <div class="Accordeon" id="Depliant">
+            <div class="bordDepliant">
+                Bâtiment
+            </div>
+        </div>
+        <div class="panel">
+            <table id="tableau">
+                <tr>
+                    <td>Réaliser des éléments d’installations de chauffage et de sanitaire. <a id="pdf" href="pdf/Installateur en thermique et sanitaire.pdf" target="_blank">voir le referentiel<img src="img/logopdf1.jpg" height="20" width="20"></a><br>
+                        Bloc de compétences du titre professionnel Installateur en thermique et sanitaire</td>
+                </tr>
+                <tr>
+                    <td>Agent d'entretien du bâtiment. <a id="pdf" href="pdf/Agent d'entretien du bâtiment.pdf" target="_blank">voir le referentiel<img src="img/logopdf1.jpg" height="20" width="20"></a></td>
+                </tr>
+                <tr>
+                    <td>Plombier-chauffagiste. <a id="pdf" href="pdf/Installateur en thermique et sanitaire.pdf" target="_blank">voir le referentiel<img src="img/logopdf1.jpg" height="20" width="20"></a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="imgcompt">
+            <div class="Caption">
+                <span class="border">Gestionnaire comptable et fiscal</span>
+            </div>
+        </div>
+        <div class="Accordeon" id="Depliant">
+            <div class="bordDepliant">
+                Gestionnaire comptable et fiscal
+            </div>
+        </div>
+        <div class="panel">
+            <table  id="tableau">
+                <tr>
+                    <td>Arrêter, contrôler et présenter les comptes annuels. <a id="pdf" href="pdf/Gestionnaire comptable et fiscal.pdf" target="_blank">voir le referentiel<img src="img/logopdf1.jpg" height="20" width="20"></a>
+                        <br>Bloc de compétences du titre professionnel Gestionnaire comptable et fiscal. </td>
+                </tr>
+                <tr><td>Gestionnaire Comptable et Fiscal. <a id="pdf" href="pdf/Gestionnaire comptable et fiscal.pdf" target="_blank">voir le referentiel<img src="img/logopdf1.jpg" height="20" width="20"></a></td></tr>
+            </table>
+        </div>
+        <div class="imgservpers">
+            <div class="Caption">
+                <span class="border">Services aux entreprises et à la personne</span>
+            </div>
+        </div>
+        <div class="Accordeon" id="Depliant">
+            <div class="bordDepliant">
+                Services aux entreprises et à la personne
+            </div>
+        </div>
+        <div class="panel">
+            <table id="tableau2">
+                <tr>
+                    <td>Préparer les repas au domicile d'un particulier. <a id="pdf" href="pdf/Assistant(e) de vie aux familles.pdf" target="_blank">voir le referentiel<img src="img/logopdf1.jpg" height="20" width="20"></a></td>
+                </tr>
+                <tr>
+                    <td>Agent de propreté et d'hygiène. <a id="pdf" href="pdf/Agent de propreté et d'hygiène.pdf" target="_blank">voir le referentiel<img src="img/logopdf1.jpg" height="20" width="20"></a></td>
+                </tr>
+                <tr>
+                    <td>Assistant de vie aux familles. <a id="pdf" href="pdf/Assistant(e) de vie aux familles.pdf" target="_blank">voir le referentiel<img src="img/logopdf1.jpg" height="20" width="20"></a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="imghotel">
+            <div class="Caption">
+                <span class="border">Hôtellerie - restauration - tourisme - loisirs</span>
+            </div>
+        </div>
+        <div class="Accordeon" id="Depliant">
+            <div class="bordDepliant">
+                Hôtellerie - restauration - tourisme - loisirs
+            </div>
+        </div>
+        <div class="panel">
+            <table id="tableau2">
+                <tr>
+                    <td>Préparer, cuire et dresser des desserts de restaurant. <a id="pdf" href="pdf/Cuisinier.pdf" target="_blank">voir le referentiel<img src="img/logopdf1.jpg" height="20" width="20"></a> 
+                        <br>Bloc de compétences du titre professionnel Cuisinier</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="imgcommerce">
+        <div class="Caption">
+            <span class="border">Commerce - vente - distribution</span>
+        </div>
+    </div>
+    <div class="Accordeon" id="Depliant">
+        <div class="bordDepliant">
+            Commerce - vente - distribution
+        </div>
+    </div>
+    <div class="panel">
+        <table id="tableau2">
+            <td>Vendeur(se) conseil en magasin. <a id="pdf" href="pdf/Vendeur-conseil en magasin.pdf" target="_blank">voir le referentiel<img src="img/logopdf1.jpg" height="20" width="20"></a></td>
+        </table>
+    </div>
+    <div class="imgindus">
+        <div class="Caption">
+            <span class="border">Industrie</span>
+        </div>
+    </div>
+    <div class="Accordeon" id="Depliant">
+        <div class="bordDepliant">
+            Industrie
+        </div>
+    </div>
+    <div class="panel">
+        <table id="tableau2">
+                <td>Technicien de maintenance des tracteurs et des matériels agricoles. <a id="pdf" href="pdf/Technicien de maintenance d'engins et de matériels de chantier et de manutention.pdf" target="_blank">voir le referentiel<img src="img/logopdf1.jpg" height="20" width="20"></a></td>
+        </table>
+    </div>
+    <div class="imgtp">
+        <div class="Caption">
+            <span class="border">Travaux publics</span>
+        </div>
+    </div>
+    <div class="Accordeon" id="Depliant">
+        <div class="bordDepliant">
+            Travaux publics
+        </div>
+    </div>
+    <div class="panel">
+        <table id="tableau2">
+                <td>Maçon en voirie et réseaux divers. <a id="pdf" href="pdf/Maçon.pdf" target="_blank">voir le referentiel<img src="img/logopdf1.jpg" height="20" width="20"></a></td>
+        </table>
+    </div>
+
+        <script type="text/javascript">
+
+            var acc = document.getElementsByClassName("Accordeon");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+            }
+        </script>
+    </body>
+</html>

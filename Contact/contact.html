@@ -1,0 +1,77 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="css/div.css">
+    </head>
+
+    <body>
+
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="div.html" class="accueil">Accueil</a>
+                </li>
+
+                <li>
+                    <a href="contact.html" class="mecontact">Me Contacter</a>
+                </li>
+
+                <li>
+                    <a href="cv.html" class="cv">CV</a>
+                </li>
+
+                <li>
+                    <a href="loisir.html" class="Loisir">Mes loisirs</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <h1 class="titre">
+            Formulaire de contact
+        </h1>
+
+        <form action="form.php" method="post">
+            <div>
+                <label for="nom">Nom: </label>
+                <input type="text" id="nom" name="Nom" required>
+            </div>
+            
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="Age" pattern="[0-9]">
+            </div>
+
+            <div>
+                <label for="email">Mail: </label>
+                <input type="email" id="mail" name="Mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            </div>
+
+            <div>
+                <label for="object">Objet: </label>
+                <input type="text" id="object" name="Objet" required>
+            </div>
+
+            <div>
+                <label for="message">Message: </label>
+                <textarea id="message" name="Message" required></textarea>
+            </div>
+            <div class="button">
+                <a href="form.php">
+                    <input type="submit" name="envoi" onclick="checkValidity()">
+                </a>
+            </div>
+        </form>
+
+        
+
+        <!-- <p>
+            <a href="div.html">
+                <button>Accueil</button>
+            </a>
+        </p> -->
+        
+    </body>
+    
+</html>

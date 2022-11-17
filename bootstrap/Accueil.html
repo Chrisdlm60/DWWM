@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>Accueil</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Accueil</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="Accueil.html">Accueil</a></li>
+                <li><a href="Profil.html">Profil</a></li>
+                <li><a href="Multimedia.html">Multimedia</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid" 
+             style="border: 6px solid silver;width: 600px; height: 200px;
+             padding: 8px 8px; margin:auto;">
+            <h1>
+                Bienvenue sur la page d'Accueil !
+            </h1>
+            <form action="User.php" method="POST">
+                
+                <label for="Nom">Vous vous appelez : </label>
+                <input type="text" name="Nom">
+                
+                <br>
+                
+                <label for="Nom">Vous êtes :</label>
+                <label for="Homme">Homme</label>
+                <input type="radio" id="Homme" name="Genre">
+                <label for="Femme">Femme</label>
+                <input type="radio" id="Femme" name="Genre">
+                
+                <br> 
+
+                <label for="Nom">Vous avez :</label>
+                <input type="number" name="Age">
+
+                <br> 
+                
+                <input type="submit" value="OK">
+            </form>
+        </div>
+        
+    </body>
+</html>

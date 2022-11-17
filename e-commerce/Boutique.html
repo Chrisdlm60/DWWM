@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <title>Boutique</title>
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid" style="background-color: paleturquoise;">
+              <div class="navbar-header"  style="height: 100px;">
+                <a class="navbar-brand" href="commerce.html" style="padding-top: 10px;"> 
+                    <img src="img/monlogo.jpg" alt="logo" width="80">
+                </a>
+              </div>
+              <ul class="nav navbar-nav">
+                    <li><a href="commerce.html" style="margin-top: 25;margin-top: 25px;">Accueil</a></li>
+                    <li class="active"><a href="Boutique.html" style="margin-top: 25;margin-top: 25px; background-color: deepskyblue;">Boutique</a></li>
+                    <li><a href="Monpanier.html" style="margin-top: 25;margin-top: 25px;">Mon panier</a></li>
+              </ul>
+            </div>
+        </nav>
+
+        <form name="facturation" id="facturation" method="POST" action="">
+
+            <table>
+
+                <tr class="row">
+
+                    <td class="col-xs-4">Article</td>
+                    <td class="col-xs-4">Description</td>
+                    <td class="col-xs-4">Prix en € TTC</td>
+                    <td class="col-xs-4">Quantité</td>
+                    <td class="col-xs-2"></td>
+                    <td class="col-xs-4">Total en € TTC</td>
+
+                </tr>
+
+                <tr class="row"> <!--Premiere ligne du tableau-->
+                    <!--image-->
+                    <td class="col-xs-4"><img src="img/ravioli.jpg" alt="" width="100" height="100"></td>
+                    <!--Nom de l'article-->
+                    <td class="col-xs-4">Boite de ravioli</td>
+                    <!--Prix unitaire-->
+                    <td class="col-xs-4">
+                        <input name="Prixunitaire1" id="Prixunitaire1" value="2.50" readonly>
+                    </td>
+                    <!--Selection du nombre-->
+                    <td class="col-xs-4"><input type="number" min="0" style="width: 58px;" 
+                        name="Quantite1" id="Quantite1" onchange="facturer(2.50,this);">
+                    </td>
+                    <!--bouton valider-->
+                   <td class="col-xs-2">
+
+                        <button type="submit" name="submit" value="ok" id="valider" 
+                            onclick="return calcul('Prixunitaire1','Quantite1','Resultat1');">
+                                OK
+                        </button>
+                    </td>
+
+                    <td class="col-xs-4"><input type="text" name="Resultat1" id="Resultat1" readonly></td>
+
+                </tr>
+                
+                <tr class="row"> <!--Deuxieme ligne du tableau-->
+                    
+                    <td class="col-xs-4"><img src="img/lingette.jpg" alt="" width="100" height="100"></td>
+                    
+                    <td class="col-xs-4">Lingette démaquillante</td>
+                    
+                    <td class="col-xs-4">
+                        <input name="Prixunitaire2" id="Prixunitaire2" value="2.30" readonly>
+                    </td>
+                    
+                    <td class="col-xs-4"><input type="number" min="0" style="width: 58px;" 
+                        name="Quantite2" id="Quantite2" onchange="facturer(2.30,this);">
+                    </td>
+                    
+                   <td class="col-xs-2">
+                        <button type="submit" name="submit" value="ok" id="valider"
+                            onclick="return calcul('Prixunitaire2','Quantite2','Resultat2');">
+                                OK
+                        </button>
+                    </td>
+
+                    <td class="col-xs-4"><input type="text" name="Resultat2" id="Resultat2" readonly>
+                    </td>
+
+                </tr>
+
+                <tr class="row"> <!--Troisieme ligne du tableau-->
+                    <td class="col-xs-4"><img src="img/pastabox.jpg" alt="" width="100" height="100"></td>
+                    <td class="col-xs-4">Pasta box</td>
+                    <td class="col-xs-4">
+                        <input name="Prixunitaire3" id="Prixunitaire3" value="4.10" readonly>
+                    </td>
+                    <td class="col-xs-4"><input type="number" min="0" style="width: 58px;" 
+                        name="Quantite3" id="Quantite3" onchange="facturer(4.10,this);">
+                    </td>
+                   <td class="col-xs-2">
+                        <button type="submit" name="submit" value="ok" id="valider"
+                            onclick="return calcul('Prixunitaire3','Quantite3','Resultat3');">
+                                OK
+                        </button>
+                    </td>
+
+                    <td class="col-xs-4"><input type="text" name="Resultat3" id="Resultat3" readonly>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="col-xs-4"></td>
+                    <td class="col-xs-4"></td>
+                    <td class="col-xs-4"></td>
+                    <td class="col-xs-4"></td>
+                    <td class="col-xs-2"><button type="submit" name="submit" value="Total" id="total"
+                        onclick="return total('Resultat1','Resultat2','Resultat3','command');">Total</button></td>
+                    <td class="col-xs-4"><input type="text" name="total" id="command" readonly></td>
+                </tr>
+                
+            </table>
+        </form>
+        
+    </body>
+    <script type="text/javascript">
+
+        function facturer(prix,quant)
+        {
+            var quantite = quant;
+            var prixunitaire = prix;
+        }
+
+        function calcul(prix,quant,result)
+        {
+            prixunitaire = parseFloat(document.getElementById(prix).value);
+            quantite = parseFloat(document.getElementById(quant).value);
+            let temp = parseFloat(document.getElementById(result).value);
+
+            temp = parseFloat(prixunitaire) * parseFloat(quantite) ;
+
+            let resultat = temp.toFixed(2);
+
+            document.getElementById(result).value = resultat.toString();
+
+            return false;
+
+        }
+
+        function total(r1,r2,r3,total)
+        {
+            prix1 = parseFloat(document.getElementById(r1).value);
+            prix2 = parseFloat(document.getElementById(r2).value);
+            prix3 = parseFloat(document.getElementById(r3).value);
+
+            let command = parseFloat(document.getElementById(total).value);
+
+            command =  parseFloat(prix1) + parseFloat(prix2) + parseFloat(prix3);
+
+            console.log(command);
+
+            document.getElementById(total).value = command.toString();
+
+            return false;
+        }
+        
+    </script>
+</html>

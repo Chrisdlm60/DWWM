@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/pos.css">
+
+        <title>Contact</title>
+    </head>
+
+    <body>
+        <div id='container'>
+            <div class='ribbon'>
+                <a href='pos.html'><span>Auteur</span></a>
+                <a href='contact.html'><span>Contact</span></a>
+            </div>
+        </div>
+        <!-- <div class="menu">
+            <ul>
+                <li>
+                    <button class="Auteur">
+                        <a href="pos.html">Auteur</a>
+                    </button>
+                </li>
+                <li class="active">
+                    <button class="Contact">
+                        <a href="contact.html">Contact</a>
+                    </button>
+                </li>
+            </ul>
+        </div> -->
+
+        <h1 class="titre">
+            Contact
+        </h1>
+
+        <form action="form.php" method="post">
+            <div>
+                <label for="nom">Nom: </label>
+                <input type="text" id="nom" name="Nom">
+            </div>
+            
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="Age">
+            </div>
+
+            <div>
+                <label for="mail">Mail: </label>
+                <input type="email" id="mail" name="Mail">
+            </div>
+
+            <div>
+                <label for="object">Objet: </label>
+                <input type="text" id="object" name="Objet">
+            </div>
+
+            <div>
+                <label for="message">Message: </label>
+                <textarea id="message" name="Message"></textarea>
+            </div>
+        </form>
+
+        <div class="button">
+            <a href="formerci.html">
+                <button type="submit" name="envoi">Envoyer</button>
+            </a>
+        </div>
+
+        <p>
+            <a href="div.html">
+                <button>Accueil</button>
+            </a>
+        </p>
+        
+    </body>
+    
+</html>

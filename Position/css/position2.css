@@ -1,0 +1,161 @@
+*
+{
+    margin:0px ;
+    padding: 0px;
+}
+
+body /* On change la couleur du fond d'écran de la page entière */
+{
+    background-color: darkgray;
+    text-align: center;
+}
+
+header
+{
+    color: rgb(6, 5, 83);
+    font-family: fantasy;
+
+    font-size: large;
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+h1
+{
+    text-align: center; /* on centre le titre à la page */
+}
+
+.menu /* On va changer l'apparence qu'aura le menu */
+{
+    width: 100%; /* On affiche le menu sur l'intégralité de la page */
+    background-color: darkgray;
+    color: black;
+}
+ul /* On va styliser le menu */
+{
+    margin: 0px 0 0px 0; 
+    padding: 0px;
+    
+}
+li /* On va disposer en ligne le menu */
+{
+    display: inline;
+}
+
+.Principale /* Stylisation de la zone principale */
+{
+    background-color: coral;
+    color: black;
+
+    width: 70%; /* Zone occupant 70% de la page */
+    height: 100%;
+
+    float: left;
+
+    left: 0px;
+}
+
+#principal /* Stylisation du champ principal */
+{
+    min-height: 300px;
+
+    border: black solid 1px;
+}
+
+.Annexe /* Stylisation de la zone annexe */
+{
+    background-color: darkolivegreen;
+    color: blanchedalmond;
+
+    width: 30%;
+    height: auto;
+
+    float: right;
+
+    min-height: 300px;
+
+    /* border: black solid 0.5px; */
+}
+
+#annexe /* Stylisation du champ annexe */
+{
+    min-height: 300px;
+
+    border: black solid 1px;
+    
+}
+
+footer
+{
+    display: inline-block;
+
+    width: 100%;
+
+}
+p 
+{
+    /* position: fixed; */
+
+    background-color: darkgray;
+
+    
+    margin: 0px 0 0px 0;
+
+    position: fixed;
+    /* border: black solid 1px; */
+    
+}
+
+#bouton
+{
+    width: 20%;
+    
+    background-color: floralwhite;
+    
+}
+
+#buton
+{
+    background-color: floralwhite;
+
+    width: 100px;
+}
+
+#bouton:hover #buton:hover
+{
+    background-color: darkorange;
+    color: darkred;
+}
+
+@media screen and (max-width: 640px)
+{
+    
+    ul
+    {
+        padding: 0px;
+    }
+    .Principale
+    {
+        width: 100%;
+    }
+
+    .Annexe
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024)
+{
+    .Principale
+    {
+        width: 70%;
+    }
+    
+    .Annexe
+    {
+        width: 30%;
+    }
+}

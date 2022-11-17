@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <!--
+            iframe va aller chercher le lien indiquer dans src pour l'afficher sur la page
+            ici c'est un lien qui récupére une vidéo youtube
+        -->
+        <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/EJQL2hIaTsY" 
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+
+        <!--
+            balise video permet d'afficher la vidéo depuis la source src
+        -->
+        <video src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls>
+
+            Your browser does not support the <code>video</code> element.
+            
+        </video>
+            
+        <!--
+            Lance une piste audio
+            attribut controls permet de voir la piste sur la page et d'en avoir le controle
+            l'attribut autoplay va quant à lui lire la piste audio à l'ouverture de la page
+        -->
+        <audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" controls>
+
+            Your browser does not support the <code>audio</code> element.
+        
+        </audio>
+        <!-- Insérer une table -->
+        <p>Paragraph</p>
+
+        <table>
+
+            <tr>
+
+                <td>ID</td>
+
+                <td>Name</td>
+
+                <td>Age</td>
+
+            </tr>
+
+            <tr>
+
+                <td>001</td>
+
+                <td>Batman</td>
+
+                <td>999</td>
+
+            </tr>
+
+            <tr>
+
+                <td>002</td>
+
+                <td>Yoda</td>
+
+                <td>6</td>
+
+            </tr>
+
+            <tr>
+
+                <td>003</td>
+
+                <td>Frahaan</td>
+
+                <td>24</td>
+
+            </tr>
+
+        </table>
+
+            
+    </body>
+</html>

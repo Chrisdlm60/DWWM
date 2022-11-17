@@ -1,0 +1,184 @@
+/* Styles généraux */
+
+body {
+	font-family:Sans-serif;
+	font-size:100%;
+	background:#ccc;
+}
+.menu 
+{
+	color:#369;
+}
+p.mention {
+	margin: 1em;
+	color:#666;
+	clear:both;
+	padding-top:2em; 
+}
+h1 {
+	padding:0;
+	color:#fff;
+	/* text-shadow:1px 1px 1px #aaa; */
+	margin-bottom:0;
+	margin:1em;
+}
+h2 {
+	background:#B2D33A;
+	color:#fff;
+	margin:0;
+	padding:4px;
+}
+#menu ul, #menu li {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+#menu li {
+	float:left;
+	width:20%;
+	text-align:center;
+}
+#menu .menu 
+{
+	display:block;
+	background:#444;
+	color:#fff;
+	border-bottom:1px;
+	text-decoration:none;
+	line-height:200%;
+	padding:0 2em;
+}
+#menu a:hover {
+	background:#222;
+}
+/* Disposition par défaut */
+#main, #aside {
+	float:left;
+	background:#fff;
+	min-height:300px;
+	overflow:auto;
+	width:100%;
+	clear:both;
+}
+#aside {
+	background:#eee;
+}
+#menu 
+{
+	width:100%;
+	overflow:auto;
+}
+
+#main, #aside
+{
+    width: 100%;
+}
+/* Menu hamburger */
+.menuimg 
+{
+    background-color: #727070;
+    color:#369;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+	font-size: 30px;	
+}
+
+/* changement de fond au survol du menu hamburger */
+.menuimg:hover 
+{
+    background-color: #3b3b3b;
+}
+
+/* Disposition du menu hamburger */
+.dropdown 
+{
+    position: relative;
+        
+	display: inline;
+	
+}
+
+/* style du menu déroulé */
+.dropdown-child 
+{
+    display: none;
+    background-color: #8a8a8a;
+        
+    min-width: 30%;
+}
+.dropdown-child .menuhamb 
+{
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+/* changement de fond au survol */
+.menuhamb:hover
+{
+	background-color: mediumaquamarine;
+}
+
+/* au survol du de l'image, affiche le sous-menu */
+.dropdown:hover .dropdown-child 
+{
+    display: block;
+    min-width: 30%;
+}
+
+
+
+/* Adaptation du menu hamburger pour la résolution tablette */
+@media screen and (min-width: 640px) and (max-width: 1024px)
+{
+	#menu
+	{
+		display: none;
+	}
+
+	.dropdown:hover .dropdown-child 
+	{
+		display: flex; /* Pour que le menu soit affiché en ligne */
+		min-width: 30%;
+	}
+	.dropdown-child .menuhamb 
+	{
+		color: white;
+		padding: 20px;
+		text-decoration: none;
+		width: 20%;
+		display: block;
+	}
+}
+/* min-width pour moyennes résolutions */
+@media screen and (min-width: 1024px) 
+{
+	
+	.menuimg
+	{
+		display: none;/* Pour que le menu hamburger ne s'affiche pas dans cette résolution */
+	}
+
+	#main {
+		width:70%;
+		clear:none;
+	}
+	#aside {
+		width:30%;
+		clear:none;
+	}
+}
+
+/* max-width pour faibles résolutions */
+
+@media screen and (max-width: 640px) 
+{
+	#menu
+	{
+		display: none; /* Pour que le menu normal ne s'affiche pas */
+	}
+}
+

@@ -1,0 +1,240 @@
+body
+{
+    background-color: rgb(48, 47, 47);
+}
+/* Menu ruban*/
+#container
+{
+    position: absolute;
+    top:10px;
+    left:100px;
+}
+.ribbon:after, .ribbon:before {
+    margin-top:0.5em;
+    content: "";
+    float:left;
+    border:1.5em solid #444343;
+}
+
+.ribbon:after {
+    border-right-color:transparent;
+}
+
+.ribbon:before {
+    border-left-color:transparent;
+}
+
+.ribbon a:link, .ribbon a:visited { 
+    color:#6e3232;
+    text-decoration:none;
+    float:left;
+    height:3.5em;
+    overflow:hidden;
+}
+
+
+.ribbon span {
+    background:#636060;
+    display:inline-block;
+    line-height:3em;
+    padding:0 1em;
+    margin-top:0.5em;
+    position:relative;
+
+    -webkit-transition: background-color 0.2s, margin-top 0.2s;
+    -moz-transition: background-color 0.2s, margin-top 0.2s;
+    -ms-transition: background-color 0.2s, margin-top 0.2s;
+    -o-transition: background-color 0.2s, margin-top 0.2s;
+    transition: background-color 0.2s, margin-top 0.2s;
+}
+
+.ribbon a:hover span {
+    background:#FF7F50;
+    margin-top:0;
+}
+
+.ribbon span:before {
+    content: "";
+    position:absolute;
+    top:3em;
+    left:0;
+    border-right:0.5em solid #807d7d;
+    border-bottom:0.5em solid #444343 ;
+}
+
+.ribbon span:after {
+    content: "";
+    position:absolute;
+    top:3em;
+    right:0;
+    border-left:0.5em solid #807d7d;
+    border-bottom:0.5em solid #444343;
+}
+
+/**/
+
+.image1
+{
+    width: 50px;
+    height: 50px;
+    
+    top: 80px;
+    left: 0px;
+
+    z-index: 4;
+
+    position: absolute;
+
+    margin-left: 90px;
+}
+
+.image2
+{
+    z-index: 5;
+
+    width: 100px; 
+    height: 100px; 
+    opacity: 0.5;
+
+    float: right;
+
+    position: absolute;
+
+    margin-right: 150px;
+    margin-top: 350px;
+}
+
+.text1
+{
+    top: 100px;
+
+    width: 150px; 
+    height: 100px;
+
+    float: left;
+
+    z-index: 3;
+
+    position: absolute;
+
+    color: rgb(110, 25, 25);
+
+    margin-left: 10px;
+    padding-top: 10px;
+
+    background-color: rgb(58, 179, 64)
+}
+
+.text2
+{
+    top: 100px;
+
+    width: 300px;
+    height: 250px;
+    
+    float: left;
+
+    z-index: 2;
+
+    position: absolute;
+    
+    margin-left: 40px;
+    margin-top: 60px;
+    padding-top: 10px;
+    color: green;
+    text-align: right;
+
+    background-color: rgb(123, 184, 224);
+}
+
+.text3
+{
+    float: left;
+
+    width: 300px; 
+    height: 400px;
+
+    z-index: 1;
+
+    position: absolute;
+    
+    color: rgb(240, 236, 22);
+
+    top: 110px;
+    margin-left: 400px;
+    margin-top: 60px;
+    margin-right: 10px ;
+
+    background-color: teal;
+}
+
+/* Redimentionnement */
+@media screen and (max-width: 780px)
+{
+    #bloc_page
+    {
+        width: auto;
+        margin: auto;
+    }
+    body
+    {
+        background-color: rgb(48, 47, 47);
+    }
+
+    .container
+    {
+        width: auto;
+        text-align: left;
+    }
+
+    .image1
+    {
+        top: 80px; /* Position vis a vis du top (haut de page) */
+        left: 80px; /* Position vis a vis de left (gauche de la page) */
+        height: 50px;
+        width: 50px; /* largeur de l'objet (ici image1) */
+        float: left;
+        margin-left: 10px;
+    }
+    .image2
+    {
+        top: 120px;
+        width: 120px;
+        left: 200px;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .text1 
+    {
+        top: 100px;
+        width: 200px;
+        height: 100px;
+        float: left;
+        margin-left: 10px;
+        color: darkred;
+        background-color: burlywood;
+    }
+
+    .text2 
+    {
+        top: 160px;
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+        color: darkgreen;
+        background-color: darkgrey;
+    }
+
+    .text3 
+    {
+        top: 430px;
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+        color: yellowgreen;
+        background-color: teal;
+    }
+
+}
+/**/

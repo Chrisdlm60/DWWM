@@ -1,0 +1,47 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Make sure your page contains a valid doctype at the very top-->
+
+        <link rel="stylesheet" type="text/css" href="css/Accordion.css" />
+
+    </head>
+    <body>
+        <span class="logo"><img src="img/logo.jpg"></span>
+
+        <button class="vaccordion">Section 1</button>
+        <div class="vpanel">
+          <p>Lorem ipsum...1</p>
+        </div>
+        
+        <button class="vaccordion">Section 2</button>
+        <div class="vpanel">
+          <p>Lorem ipsum...2</p>
+        </div>
+        
+        <button class="vaccordion">Section 3</button>
+        <div class="vpanel">
+          <p>Lorem ipsum...3</p>
+        </div>
+        
+        <script type="text/javascript">
+
+            var acc = document.getElementsByClassName("vaccordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var vpanel = this.nextElementSibling;
+                if (vpanel.style.display === "block") {
+                vpanel.style.display = "none";
+                } else {
+                vpanel.style.display = "block";
+                }
+            });
+            }
+        </script>
+    </body>
+</html>

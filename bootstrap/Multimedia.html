@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      
+      <title>Multimedia</title>
+      <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+          width: 100%;
+          height: 100%;
+        }
+        </style>
+  </head>
+  <body>
+      <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Multimedia</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li><a href="Accueil.html">Home</a></li>
+              <li><a href="Profil.html">Profil</a></li>
+              <li class="active"><a href="Multimedia.html">Multimedia</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+            </ul>
+          </div>
+      </nav>
+      <h1>
+          Bienvenue sur la page Multimedia !
+      </h1>
+      <div class="container-fluid" >
+        <video src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls></video>
+
+        <br>
+
+        <audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" controls></audio>
+      </div>
+
+      <div class="container mt-3">
+        <h2>Carousel</h2>
+        <div id="MonCarousel" class="carousel side" data-ride="carousel">
+          <!--Indicateur-->
+          <ul class="carousel-indicators">
+
+            <li data-target="#MonCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#MonCarousel" data-slide-to="1"></li>
+            <li data-target="#MonCarousel" data-slide-to="2"></li>
+
+          </ul>
+
+          <!--Slideshow-->
+          <div class="carousel-inner">
+
+            <div class="item active">
+
+              <img src="img/img.jpg" alt="img">
+
+            </div>
+            <div class="item">
+
+              <img src="img/papillon.jpg" alt="papillon">
+
+            </div>
+            <div class="item">
+
+              <img src="img/pont.jpg" alt="pont">
+
+            </div>
+          </div>
+          <!-- Controle gauche<->droite v3.4.1-->
+          <a class="left carousel-control" href="#MonCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#MonCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          
+          <!-- Controle gauche/droite v4.5.2 -->
+          <!--
+          <a class="carousel-control-prev" href="#MonCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#MonCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+          -->
+        </div>
+
+      </div>
+  </body>
+</html>
