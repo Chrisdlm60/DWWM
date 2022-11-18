@@ -1,0 +1,304 @@
+/********* Generic style ***********/
+
+* {
+    margin: 0;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    background-color: #090b29;
+}
+
+form {
+	/* Uniquement centrer le formulaire sur la page */
+	margin-left: 0px;
+    /* background-color: #1b81bd; */
+	width: 100%;
+	height: auto;
+	/* Encadré pour voir les limites du formulaire */
+	padding: 1%;
+	border: 1px solid #1b81bd;
+	border-radius: 10px;
+}
+input{
+    background-color: #1b81bd;
+    border: hidden;
+    border-radius: 10px;
+}
+
+h1, h3, h2 {
+    color:#1b81bd;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#newfilm{
+    border-radius: 10px;
+    margin-left: 0;
+	white-space: nowrap;
+	align-items: center;
+}
+
+.body-header{
+	/* display: inline-flex; */
+	width: 100%;
+}
+
+div#researchbytitle{
+    position: relative;
+    display: inline;
+	margin-left: 30%;
+    margin-right: 20%;
+}
+input::placeholder{
+	color: #090b29
+}
+
+/********* Nav style ***********/
+
+.navtop{
+    margin-top: 10px;
+    width: 100%;
+    height: 60px;
+    border: 0;
+}
+
+.navtop .menu, .menu-child {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.navtop .menu a {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 2%;
+    text-decoration: none;
+    color: #122b72;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.navtop .menu a:hover {
+    color: #1b81bd;
+}
+
+.content {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.content h2 {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 22px;
+	border-bottom: 1px solid #1b81bd;
+	/* color: #666666; */
+}
+
+/********* Films style ***********/
+
+/****** Button add film *******/
+.films .create-film {
+	display: inline-block;
+	border-radius: 15px;
+	text-decoration: none;
+	background-color: #1b81bd;
+	font-weight: bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding: 10px 15px;
+	margin: 15px 0;
+}
+
+.films .create-film:hover {
+	background-color: #32a367;
+}
+
+.films .pagination {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.films .pagination a {
+	display: inline-block;
+	text-decoration: none;
+	background-color: #a5a7a9;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 5px 10px;
+	margin: 15px 0 15px 5px;
+}
+
+.films .pagination a:hover {
+	background-color: #999b9d;
+}
+
+.films table {
+	width: 100%;
+	padding-top: 30px;
+	border-collapse: collapse;
+    text-align: center;
+}
+
+.films table thead {
+	background-color: #222075;
+	border-bottom: 1px solid #122b72;
+}
+
+.films table thead td {
+	padding: 10px;
+	font-weight: bold;
+	color: #1b81bd;
+	font-size: 14px;
+    text-align: center;
+}
+
+.films table tbody tr {
+	border-bottom: 1px solid #122b72;
+}
+
+.films table tbody tr:nth-child(even) {
+	background-color: #222075;
+}
+
+.films table tbody tr:hover {
+	background-color: #1b81bd;
+}
+
+.films table tbody tr:hover td {
+	color: #122b72;
+}
+
+.films table tbody tr:hover td:nth-child(1) {
+	color: #122b72;
+}
+
+.films table tbody tr td {
+	padding: 10px;
+    color:#1b81bd
+}
+.films table tbody tr td a{
+	text-decoration: none;
+    color: #1b81bd;
+}
+.films table tbody tr:hover td a{
+    color:#122b72
+}
+
+.films table tbody tr td:nth-child(1) {
+	color: #1b81bd;
+}
+
+.films table tbody tr td.actions {
+	padding: 8px;
+}
+
+.films table tbody tr td.actions .edit,
+.films table tbody tr td.actions .trash {
+	display: inline-flex;
+	text-align: right;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 10px 12px;
+    border-radius: 15px;
+}
+
+.films table tbody tr td.actions .trash {
+	background-color: #b73737;
+}
+
+.films table tbody tr td.actions .trash:hover {
+	background-color: #a33131;
+}
+
+.films table tbody tr td.actions .edit {
+	background-color: #37afb7;
+}
+
+.films table tbody tr td.actions .edit:hover {
+	background-color: #319ca3;
+}
+
+
+/********* Read/Create/Update style ***********/
+.update, .create, .read {
+    margin-top: 15px;
+    text-align: center;
+    color: #1b81bd;
+}
+
+.update form, .create form, .read form {
+    margin-top: 15px;
+	display: inline-block;
+	flex-flow: wrap;
+    width: 500px;
+}
+
+.update form label, .create form label, .read form label {
+	display: inline-flex;
+	width: 100%;
+	padding: 10px 0;
+	margin-right: 25px;
+}
+
+.update form input, .create form input, .read form input {
+	padding: 10px;
+	width: 100%;
+	margin-right: 25px;
+	margin-bottom: 15px;
+	/* border: 1px solid #cccccc; */
+}
+
+.update form input[type="submit"], .create form input[type='submit'] {
+	display: block;
+	background-color: #1b81bd;
+	border: 0;
+	font-weight: bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	cursor: pointer;
+	width: 200px;
+	margin-top: 15px;
+}
+
+.update form input[type="submit"]:hover, .create form input[type='submit']:hover {
+	background-color: #32a367;
+}
+
+/********* Delete style ***********/
+.delete h2{
+    color: #1b81bd;
+}
+
+.delete .yesno {
+	display: flex;
+}
+
+.delete span {
+    color:#b73737
+}
+
+.delete .yesno a {
+	display: inline-block;
+	text-decoration: none;
+	background-color: #38b673;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 10px 15px;
+	margin: 15px 10px 15px 0;
+}
+
+.delete .yesno a:hover {
+	background-color: #32a367;
+}
+
