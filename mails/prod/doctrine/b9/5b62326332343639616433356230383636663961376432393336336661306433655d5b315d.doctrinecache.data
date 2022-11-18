@@ -1,0 +1,18 @@
+1615394272
+s:3454:"HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 10 Mar 2021 14:37:52 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+X-XSS-Protection: 1; mode=block;
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Feature-Policy: accelerometer 'self'; ambient-light-sensor 'self'; autoplay 'self'; camera 'self'; encrypted-media 'self'; fullscreen 'self'; geolocation 'self'; gyroscope 'self'; magnetometer 'self'; microphone 'self'; midi 'self'; payment 'self'; picture-in-picture *; speaker 'self'; sync-xhr *; usb 'self'; vr 'self';
+X-Permitted-Cross-Domain-Policies: none
+Expect-CT: enforce, max-age=604800
+X-Backend-Server: vm2731.jn-hebergement.com
+
+{"modules":[{"id":"23870","name":"ps_shoppingcart","displayName":"Shopping cart","categoryName":"Blocs, Onglets & Banni\u00e8res","description":"Affichez une ic&ocirc;ne de panier ainsi que le nombre d&rsquo;articles qu&rsquo;il contient sur toutes vos pages","author":"PrestaShop","url":"https:\/\/addons.prestashop.com\/fr\/blocs-onglets-bannieres\/23870-shopping-cart.html?utm_source=back-office&utm_medium=push-addons&utm_campaign=back-office-FR&utm_content=download","serviceUrl":"","img":"https:\/\/medias1.prestastore.com\/img\/pico\/23870.jpg","fullDescription":"Affichez une ic&ocirc;ne de panier ainsi que le nombre d&rsquo;articles qu&rsquo;il contient sur toutes vos pages.","additionalDescription":"Servez-vous de ce module natif pour :\r\n<ul>\r\n\t<li><strong>Attirer l&#39;attention de vos clients : <\/strong>faites-leur savoir en un coup d&#39;&oelig;il combien de produits ils ont mis au panier en visitant votre site.<\/li>\r\n\t<li><strong>Optimiser votre catalogue :<\/strong> &eacute;tudiez votre activit&eacute; en profondeur et suivez son &eacute;volution pour coller au plus pr&egrave;s des besoins de vos clients.<\/li>\r\n<\/ul>\r\n","features":"Ce module est tr&egrave;s simple &agrave; configurer : il vous suffit de pr&eacute;ciser si vous souhaitez que le mode Ajax s&#39;applique &agrave; aux paniers sur votre site. Nous vous suggerons de le conserver car il permet l&#39;actualisation automatique des paniers de vos clients.<br \/>\r\n<br \/>\r\nCela signifie qu&#39;un client qui vient de mettre un article au panier le verra automatiquement depuis l&#39;ic&ocirc;ne, dans la barre sup&eacute;rieure (header) des pages du site ; le nombre de produits mis au panier, &eacute;voluant au cours de son shopping sur votre site, s&#39;actualisera en cons&eacute;quent.","customer_benefits":"","demo_video":"","version":"2.0.4","last_update":"2021-03-09 12:58:31","compatibility":{"from":"1.7.1.0","to":"1.7.7.2"},"price":{"EUR":0,"USD":0,"GBP":0},"badges":[{"label":"R\u00e9alis\u00e9 par PrestaShop","img":"https:\/\/medias2.prestastore.com\/themes\/prestastore\/img\/front\/sprites\/badges\/made-by-prestashop.png"}],"cover":{"small":"https:\/\/medias2.prestastore.com\/1293819-pprod\/shopping-cart.jpg","big":"https:\/\/medias2.prestastore.com\/1293819-pbig\/shopping-cart.jpg"},"pictures":{"small":["https:\/\/medias1.prestastore.com\/838733-pprod\/shopping-cart.jpg","https:\/\/medias1.prestastore.com\/1293818-pprod\/shopping-cart.jpg"],"big":["https:\/\/medias1.prestastore.com\/838733-pbig\/shopping-cart.jpg","https:\/\/medias1.prestastore.com\/1293818-pbig\/shopping-cart.jpg"]}}]}";

@@ -1,0 +1,18 @@
+1615394384
+s:3264:"HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 10 Mar 2021 14:39:44 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+X-XSS-Protection: 1; mode=block;
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Feature-Policy: accelerometer 'self'; ambient-light-sensor 'self'; autoplay 'self'; camera 'self'; encrypted-media 'self'; fullscreen 'self'; geolocation 'self'; gyroscope 'self'; magnetometer 'self'; microphone 'self'; midi 'self'; payment 'self'; picture-in-picture *; speaker 'self'; sync-xhr *; usb 'self'; vr 'self';
+X-Permitted-Cross-Domain-Policies: none
+Expect-CT: enforce, max-age=604800
+X-Backend-Server: vm2730.jn-hebergement.com
+
+{"modules":[{"id":"15282","name":"statssales","displayName":"Sales and orders","categoryName":"Analyses & Statistiques","description":"Enrichissez vos statistiques gr&acirc;ce &agrave; des graphiques vous indiquant l&rsquo;&eacute;volution de vos ventes et de vos commandes","author":"PrestaShop","url":"https:\/\/addons.prestashop.com\/fr\/analyses-statistiques\/15282-sales-and-orders.html?utm_source=back-office&utm_medium=push-addons&utm_campaign=back-office-FR&utm_content=download","serviceUrl":"","img":"https:\/\/medias1.prestastore.com\/img\/pico\/15282.jpg","fullDescription":"Enrichissez vos statistiques gr&acirc;ce &agrave; des graphiques vous indiquant l&rsquo;&eacute;volution de vos ventes et de vos commandes.","additionalDescription":"Servez-vous de ce module :\r\n<ul>\r\n\t<li><strong>R&eacute;cup&eacute;rer de la data :<\/strong> ces informations sont essentielles pour analyser votre activit&eacute; et la faire &eacute;voluer dans la bonne direction.<\/li>\r\n<\/ul>\r\n","features":"Pas besoin de configurer ce module, il suffit juste de l&#39;activer ou le d&eacute;sactiver. Une fois activ&eacute;, ses r&eacute;sultats sont affich&eacute;s dans la section &#39;Statistiques&#39; de votre back office.<br \/>\r\n<br \/>\r\nAffichez un graphique t&eacute;moignant de l&#39;&eacute;volution des commandes et des ventes pass&eacute;es sur votre boutique pour une p&eacute;riode donn&eacute;e. En le consultant r&eacute;guli&egrave;rement, vous aurez toutes les informations en main pour g&eacute;rer votre activit&eacute; durablement.<br \/>\r\n<br \/>\r\nEn outre, une vue de la r&eacute;partition de vos statuts de commande est &eacute;galement accessible depuis ce module - suivant les informations mentionn&eacute;es dans la page Commandes de votre back office.<br \/>\r\n<br \/>\r\nVous avez aussi la possibilit&eacute; d&#39;exporter ces donn&eacute;es sous forme de fichier CSV.","customer_benefits":"","demo_video":"","version":"2.0.0","last_update":"2021-03-10 12:58:29","compatibility":{"from":"1.7.1.0","to":"1.7.7.2"},"price":{"EUR":0,"USD":0,"GBP":0},"badges":[{"label":"R\u00e9alis\u00e9 par PrestaShop","img":"https:\/\/medias2.prestastore.com\/themes\/prestastore\/img\/front\/sprites\/badges\/made-by-prestashop.png"}],"cover":{"small":"https:\/\/medias1.prestastore.com\/1295015-pprod\/sales-and-orders.jpg","big":"https:\/\/medias1.prestastore.com\/1295015-pbig\/sales-and-orders.jpg"}}]}";

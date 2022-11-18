@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>gadwords</name>
+    <displayName><![CDATA[Google Ads]]></displayName>
+    <version><![CDATA[2.0.2]]></version>
+    <description><![CDATA[Boostez votre visibilit&eacute; avec les annonces Shopping de PrestaShop et Google. Facilitez la d&eacute;couverte et l&rsquo;achat de vos produits par les acheteurs gr&acirc;ce aux campagnes Google Smart Shopping sur PrestaShop.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[advertising_marketing]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

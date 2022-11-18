@@ -1,0 +1,4 @@
+## 2021-03-17 13:20:30 ##
+ERROR : An error occurred while redirecting to the payment processor
+## 2021-03-17 13:22:45 ##
+ERROR : An error occurred while redirecting to the payment processor

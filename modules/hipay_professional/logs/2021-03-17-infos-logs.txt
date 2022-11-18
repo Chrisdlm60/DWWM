@@ -1,0 +1,16 @@
+## 2021-03-17 13:23:45 ##
+##########################
+## 2021-03-17 13:23:45 ##
+---- START function getContent
+## 2021-03-17 13:23:45 ##
+---- >> function postProcess
+## 2021-03-17 13:23:45 ##
+---- >> default action
+## 2021-03-17 13:23:45 ##
+---- >> function majConfigurationByApi
+## 2021-03-17 13:23:45 ##
+url : https://merchant.hipaywallet.com/api/tools/captcha
+## 2021-03-17 13:23:46 ##
+---- END function getContent
+## 2021-03-17 13:23:46 ##
+##########################

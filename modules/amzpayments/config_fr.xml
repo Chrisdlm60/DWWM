@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>amzpayments</name>
+    <displayName><![CDATA[Amazon Pay - Login and Pay with Amazon]]></displayName>
+    <version><![CDATA[3.3.2]]></version>
+    <description><![CDATA[Installez Amazon Pay comme moyen de paiement et permettez &agrave; tous les utilisateurs Amazon d&rsquo;acheter sans quitter votre site Prestashop]]></description>
+    <author><![CDATA[patworx multimedia GmbH]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Voulez-vous vraiment désinstaller le module?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

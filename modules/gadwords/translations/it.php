@@ -1,0 +1,20 @@
+<?php
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{gadwords}prestashop>gadwords_d323dff6f7de41c0b9af4c35e21dc032'] = '';
+$_MODULE['<{gadwords}prestashop>gadwords_2ad507e11d57ff043818ed8eaa876c46'] = 'Ottieni risultati visibili con gli annunci Shopping di Google. Rendi i tuoi prodotti facili da trovare e da comprare per i tuoi potenziali clienti con le campagne Google Smart Shopping su PrestaShop.';
+$_MODULE['<{gadwords}prestashop>gadwords_dcdd08ee104839c2015cdd740f2e1f39'] = 'Impossibile installare PrestaShop Ads';
+$_MODULE['<{gadwords}prestashop>create_ads_77f0fe9b5917f3651715b0d38db936ad'] = '';
+$_MODULE['<{gadwords}prestashop>create_ads_a0a4760d8dbf4d5fbf36438aac880600'] = 'Inizia a fare pubblicità su Google Shopping con il modulo PrestaShop Ads, ottieni fino a 120 € in crediti pubblicitari.';
+$_MODULE['<{gadwords}prestashop>create_ads_91cef61323df65d078c4b76ce9370db5'] = 'Attiva PrestaShop Ads';
+$_MODULE['<{gadwords}prestashop>create_ads_91cef61323df65d078c4b76ce9370db5'] = 'Attiva PrestaShop Ads';
+$_MODULE['<{gadwords}prestashop>informations_77f0fe9b5917f3651715b0d38db936ad'] = '';
+$_MODULE['<{gadwords}prestashop>informations_bf86bf463dcd54dba44adab231d25c70'] = 'Campagne Shopping';
+$_MODULE['<{gadwords}prestashop>informations_124cbce33fb7a31d3f9c3489d5203c51'] = 'Rendi i tuoi prodotti facili da trovare e da comprare per i tuoi potenziali clienti grazie alle le campagne Google Smart Shopping su PrestaShop.';
+$_MODULE['<{gadwords}prestashop>informations_75eb04605f487cece93811c27c9308a7'] = '';
+$_MODULE['<{gadwords}prestashop>informations_1763b0ceeb82b9f8d2c192915d451b30'] = 'Campagne intelligenti. Ampia portata.';
+$_MODULE['<{gadwords}prestashop>informations_98f15c1b1e03ae61b0c05745c33f9378'] = 'Raggiungi i clienti che stanno cercando i tuoi prodotti nel momento in cui vogliono comprarli - attraverso la ricerca Google, YouTube, Gmail e altro ancora!';
+$_MODULE['<{gadwords}prestashop>informations_959033ae2158988799512aa36fe85a22'] = 'Non hai tempo? Non c\'è problema.';
+$_MODULE['<{gadwords}prestashop>informations_268b4316931b98bcf6eda48d57e9ad15'] = 'Dopo l\'installazione, tutto quello che devi fare è scegliere il tuo budget e la tecnologia intelligente di Google fa tutto il resto, come scegliere dove far vedere gli annunci e a quali utenti. Paghi solo quando gli utenti fanno clic sui tuoi annunci.';
+$_MODULE['<{gadwords}prestashop>informations_e8392f5e9072bc4144db0f24bb0800c7'] = 'Un\'immagine vale mille click';
+$_MODULE['<{gadwords}prestashop>informations_a17b7883d415256bdff332acfd05583e'] = 'Molti inserzionisti raddoppiano o addirittura triplicano le percentuali di click utilizzando gli annunci Shopping, rispetto agli annunci di testo senza immagini.';

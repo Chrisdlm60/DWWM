@@ -1,0 +1,75 @@
+/* BLOCK Testimonial******** */
+
+.wt-block-testimonial 
+{
+	    margin-top: 0;
+}
+
+.wt-block-testimonial .testimonial-text{max-width: 540px;}
+}
+#wt-block-testimonial li {
+position:relative;
+	float:left;
+	overflow:hidden;
+	text-align:center;
+	position:relative;margin-bottom:18px; 
+	text-align: center;
+	
+	}
+.testimonial-img-author{width:15%;margin-right:15px;float:left}
+.wt-block-testimonial .testimonial-text .content-intro:before{    width: 0px;
+    height: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #323232;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 18px;
+    top: -10px}
+.wt-block-testimonial .testimonial-text .content-intro{font-size:13px;font-family: 'Open Sans', sans-serif;color:#999;margin-bottom:10px;    border-radius: 4px;
+    background: #323232;
+    position: relative;
+    margin-top: 18px;
+	padding:7px;}
+.wt-block-testimonial .testimonial-text h3{font-size:13px;font-family: 'Open Sans', sans-serif;color:#fff;}
+.wt-block-testimonial .testimonial-text h4{font-size:13px; font-family: 'Open Sans', sans-serif;color:#999;}
+.wt-block-testimonial{padding-right:0;padding-left:20px}
+.wt-block-testimonial .container{padding-left:0;}
+#wt-block-testimonial li:hover{transition:all 300ms ease-in-out 0s;-moz-transition:all 300ms ease-in-out 0s;-webkit-transition:all 300ms ease-in-out 0s;-o-transition:all 300ms ease-in-out 0s;}
+#wt-block-testimonial li a img{max-width:100%;}
+#wt-block-testimonial ul li.first{}
+#wt-block-testimonial a.button{padding-left:13px;padding-right:11px;position:absolute;bottom:28px;left:30%}
+#wt-block-testimonial a.btn{display:none} 
+#wt-block-testimonial li a img:hover
+{
+-webkit-animation: pulse ease-in-out 1 normal 800ms;
+	-moz-animation: pulse ease-in-out 1 normal 800ms;
+	-o-animation: pulse ease-in-out 1 normal 800ms;
+	animation: pulse ease-in-out 1 normal 800ms;
+	
+}
+
+.wt-block-testimonial .pager_nav {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.wt-block-testimonial .pager_nav a {
+	background: transparent url(../img/carousel_control.png) no-repeat -30px 0px;
+	text-decoration: none;
+	text-indent: -999px;
+	display: inline-block;
+	overflow: hidden;
+	width: 30px;
+	height: 30px;
+	margin: 0 5px 0 0;
+}
+.wt-block-testimonial .pager_nav a:hover {
+	background: transparent url(../img/carousel_control.png) no-repeat -60px 0px;
+	text-decoration: underline;				
+}
+.wt-block-testimonial .pager_nav a.selected {
+	background: transparent url(../img/carousel_control.png) no-repeat -60px 0px;
+	text-decoration: underline;				
+}

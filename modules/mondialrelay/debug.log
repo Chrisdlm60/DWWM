@@ -1,0 +1,6 @@
+[ALL] <2018-10-24(09:02:50)> /htdocs/modules/mondialrelay/controllers/admin/AdminMondialRelayController.php:182
+install tab called
+
+[ALL] <2021-03-17(13:10:53)> /htdocs/prestarecup/modules/mondialrelay/classes/helper/MRAdminTabHelper.php:42
+deleteAdminTabs called
+

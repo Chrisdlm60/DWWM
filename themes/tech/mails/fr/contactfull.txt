@@ -1,0 +1,27 @@
+{shop_url}
+
+Message de la part d'un client de {shop_name}
+
+Adresse e-mail du client : {email}
+
+Message du client :
+
+Nom et Prenom : {lastname} {firstname}
+
+Société du client : {societe}
+
+Adresse du client : {adresse}
+
+Installation sur mur  {installation}
+
+Nombre de bidons : {NbBouteille}
+
+Nombre de parfums : {saveurs}
+
+Téléphone du client : {telephone}
+
+{message}
+
+
+[{shop_name}]({shop_url})
+

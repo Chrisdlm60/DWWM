@@ -1,0 +1,30 @@
+{shop_url}
+
+Bonjour {firstname} {lastname},
+
+Votre message a bien été envoyé, merci d'avoir pris le temps de nous écrire !
+
+Voici votre message : {message}
+
+Les informations vous concernant :
+
+Nom et prénom : {lastname} {firstname}
+
+Société du client : {societe}
+
+Adresse du client : {adresse}
+
+Installation sur mur  {installation}
+
+Nombre de bidons : {NbBouteille}
+
+Nombre de parfums : {saveurs}
+
+Téléphone du client : {telephone}
+
+
+Nous vous répondrons dans les meilleurs délais.
+
+[{shop_name}]({shop_url})
+
+
